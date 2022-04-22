@@ -1,0 +1,111 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #162c1a;
+  padding: 5px;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-list a,
+.nav-list a:after {
+  padding: 12px;
+  border-right: 1px solid #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+.nav-list li {
+  list-style-type: none;
+}
+
+.nav-list li:last-of-type a {
+  border-right: none;
+}
+
+.full-width {
+  display: none;
+}
+
+.short-width {
+  display: flex;
+}
+
+.sub-nav {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #e1e1e1;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.sub-nav input {
+  padding: 8px;
+  border: none;
+  border-bottom: 3px solid #264a2c;
+  flex-grow: 2;
+}
+
+.sub-nav button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #254a2c;
+}
+
+.sub-nav button:hover {
+  background-color: #162c1a;
+}
+
+.company-name {
+  text-transform: uppercase;
+  margin: 0vw 7vw;
+  color: #254a2c;
+}
+
+.company-name:first-letter {
+  font-size: 30px;
+}
+
+.credit-offer {
+  text-decoration: none;
+  width: 300px;
+  color: #fff;
+  background-color: #d16014;
+  padding: 4px;
+  text-align: center;
+}
+
+.credit-offer:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .full-width {
+    display: flex;
+  }
+
+  .short-width {
+    display: none;
+  }
+}
