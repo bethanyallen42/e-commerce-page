@@ -1,10 +1,13 @@
+.nav-wrapper {
+  position: relative;
+}
 .categories {
   display: flex;
   flex-direction: column;
   flex-basis: 256px;
   align-items: center;
-  margin-top: 95px;
-  position: fixed;
+  position: sticky;
+  top: 95px;
 }
 
 .categories > a,
