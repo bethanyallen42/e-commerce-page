@@ -52,7 +52,7 @@
 
 @media (max-width: 768px) {
   .item {
-    flex-basis: 100%;
+    flex-basis: 95%;
   }
 
   .item-name {
